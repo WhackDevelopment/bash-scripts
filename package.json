@@ -8,7 +8,8 @@
         "format": "npx prettier --write .",
         "prettier": "npx prettier --write .",
         "licenseCheck": "license-check-and-add check -f ./licenseConfig.json",
-        "license": "license-check-and-add add -f ./licenseConfig.json"
+        "license": "license-check-and-add add -f ./licenseConfig.json",
+        "build": "node index"
     },
     "repository": {
         "type": "git",
@@ -33,5 +34,8 @@
         "license-check-and-add": "^4.0.5",
         "prettier": "^2.8.7",
         "prettier-plugin-sh": "^0.12.8"
+    },
+    "dependencies": {
+        "bash-minifier": "^0.1.3"
     }
 }
