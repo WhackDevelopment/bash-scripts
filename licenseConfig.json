@@ -1,0 +1,28 @@
+{
+    "ignore": ["**/*.json", "**/.*", "**/*.class", "**/*.jar", "**/*.txt", "**/*.md"],
+    "license": "HEADER.txt",
+    "licenseFormats": {
+        "java": {
+            "prepend": "/**",
+            "append": " */\n\n",
+            "eachLine": {
+                "prepend": " * "
+            }
+        },
+        "js": {
+            "prepend": "/**",
+            "append": " */\n\n",
+            "eachLine": {
+                "prepend": " * "
+            }
+        },
+        "sh": {
+            "prepend": "#!/bin/bash\n#\n#/*",
+            "append": "# */\n\n",
+            "eachLine": {
+                "prepend": "# * "
+            }
+        }
+    },
+    "trailingWhitespace": "TRIM"
+}
